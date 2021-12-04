@@ -5,5 +5,12 @@
             "*.{jpg,gif,png}",
             "assets/*"
         ]
-    }    
+    },
+    "routes": [
+        {
+            "route": "/about",
+            "redirect": "/about-us",
+            "statusCode": 301
+        }
+    ]
 }
